@@ -24,6 +24,22 @@ public class Coin
       return minCount;
    }
 
+//   public static int maxValue(int totalWeight, int[] values, int[] weights) {
+//      int[] maxes = new int[totalWeight + 1];
+//      maxes[0] = 0;
+//
+//      for (int i = 1; i <= totalWeight; i++) {
+//         int currentWeight = i;
+//         maxes[i] = Integer.MAX_VALUE;
+//         for (int j = 0; i < values.length; j++) {
+//            int value = values[j];
+//            int weight = weights[j];
+//
+//
+//         }
+//      }
+//   }
+
    public static void main(String[] args) {
       System.out.println(getMinCount(100, new int[]{1,5,10,25}));
    }
